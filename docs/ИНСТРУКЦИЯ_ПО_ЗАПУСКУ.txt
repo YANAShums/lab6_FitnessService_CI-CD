@@ -1,0 +1,26 @@
+1. Распакуй архив.
+2. Открой папку в VS Code.
+3. Открой терминал.
+4. Выполни:
+   npm install
+5. Потом:
+   npx playwright install chromium
+
+Локальный запуск:
+6. npm start
+7. Открой http://localhost:3000
+
+Тесты:
+8. npm run test:unit
+9. npm run test:api
+10. npm run test:ui
+11. npm run test:all
+12. npm run allure:open
+
+GitHub:
+13. Создай public repository.
+14. Загрузи весь проект.
+15. Убедись, что папка .github/workflows тоже загружена.
+16. Добавь secrets для Telegram.
+17. Открой Actions и проверь pipeline.
+18. Открой artifact с отчетами.

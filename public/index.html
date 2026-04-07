@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Фитнес-калории</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="card">
+      <h1>Калькулятор фитнес-калорий</h1>
+      <p class="subtitle">Получите активность по ID пользователя и рассчитайте количество сожжённых калорий.</p>
+      <form id="fitnessForm" novalidate>
+        <div class="grid">
+          <label class="field"><span>ID пользователя</span><input id="userId" type="text" placeholder="Например, 1" /></label>
+          <label class="field"><span>Вес (кг)</span><input id="weight" type="number" step="0.01" min="0" placeholder="Например, 70" /></label>
+          <label class="field"><span>Пульс</span><input id="pulse" type="number" step="1" min="0" placeholder="Авто из API или вручную" /></label>
+          <label class="field"><span>Шаги</span><input id="steps" type="number" readonly placeholder="Загрузятся из API" /></label>
+        </div>
+        <div class="actions">
+          <button id="loadActivityBtn" type="button">Загрузить активность</button>
+          <button id="calculateBtn" type="submit">Рассчитать калории</button>
+        </div>
+      </form>
+      <div id="activityInfo" class="info hidden"></div>
+      <div id="resultArea" class="result-area"></div>
+    </section>
+  </main>
+  <script src="/script.js"></script>
+</body>
+</html>
