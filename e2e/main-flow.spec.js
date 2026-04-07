@@ -16,7 +16,7 @@ const positiveCases = [
     weight: '70',
     pulseOverride: '',
     expectedCalories: '800',
-    expectedNote: 'Коэффициент был удвоен, так как пульс превышает 160.'
+    expectedNote: 'Коэффициент был удвоен, так как пульс превышает 160 ударов в минуту (Изменение).'
   },
   {
     title: 'DDT: пользователь 1, ручной пульс 170, вес 50',
@@ -24,7 +24,7 @@ const positiveCases = [
     weight: '50',
     pulseOverride: '170',
     expectedCalories: '457.14',
-    expectedNote: 'Коэффициент был удвоен, так как пульс превышает 160.'
+    expectedNote: 'Коэффициент был удвоен, так как пульс превышает 160 ударов в минуту (Изменение).'
   }
 ];
 
