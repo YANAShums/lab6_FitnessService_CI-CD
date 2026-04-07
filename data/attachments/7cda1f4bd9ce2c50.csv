@@ -1,0 +1,5 @@
+userId,weight,statusCode,resultStatus,expectedValue
+1,70,200,success,320
+2,70,200,success,800
+3,50,200,success,342.86
+2,4,400,error,Минимальный вес — 5 кг
